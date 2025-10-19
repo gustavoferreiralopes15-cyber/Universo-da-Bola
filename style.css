@@ -1,1 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 1rem;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+}
+
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+    color: #f8f9fa;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    opacity: 0.7;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+    opacity: 1;
+}
+
+.card-escudo {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    padding: 1rem;
+    background-color: #fdfdfd;
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-width: 2px !important;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-footer {
+    background-color: inherit;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.foto-vinculada {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#time-imagem-principal {
+    border: 5px solid;
+    border-radius: 8px;
+    width: 100%;
+    max-height: 350px;
+    object-fit: contain;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.list-group-item {
+    border-width: 2px;
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 300px;
+    }
+    .carousel-caption {
+        bottom: 10px;
+        width: 95%;
+        padding: 0.8rem;
+    }
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+    #time-imagem-principal {
+        max-height: 250px;
+    }
+}
+
+.atletico-mg-bg-light { background-color: #f0f0f0; }
+.text-atletico-mg-primary { color: #000000; }
+.text-atletico-mg-secondary { color: #FFFFFF; }
+.border-atletico-mg { border-color: #000000 !important; }
+
+.btn-atletico-mg {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-color: #000000;
+}
+.btn-atletico-mg:hover {
+    background-color: #222222;
+    color: #FFFFFF;
+    border-color: #222222;
+}
+.btn-outline-atletico-mg {
+    color: #000000;
+    border-color: #000000;
+}
+.btn-outline-atletico-mg:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.carousel-caption-atletico-mg {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.flamengo-bg-light { background-color: #fde0e0; }
+.text-flamengo-primary { color: #CB2B2F; }
+.text-flamengo-secondary { color: #FFFFFF; }
+.border-flamengo { border-color: #CB2B2F !important; }
+
+.btn-flamengo {
+    background-color: #CB2B2F;
+    color: #FFFFFF;
+    border-color: #CB2B2F;
+}
+.btn-flamengo:hover {
+    background-color: #a32225;
+    color: #FFFFFF;
+    border-color: #a32225;
+}
+.btn-outline-flamengo {
+    color: #CB2B2F;
+    border-color: #CB2B2F;
+}
+.btn-outline-flamengo:hover {
+    background-color: #CB2B2F;
+    color: #FFFFFF;
+}
+.carousel-caption-flamengo {
+    background-color: rgba(203, 43, 47, 0.6);
+}
+
+.corinthians-bg-light { background-color: #efefef; }
+.text-corinthians-primary { color: #222222; }
+.text-corinthians-secondary { color: #FFFFFF; }
+.border-corinthians { border-color: #222222 !important; }
+
+.btn-corinthians {
+    background-color: #222222;
+    color: #FFFFFF;
+    border-color: #222222;
+}
+.btn-corinthians:hover {
+    background-color: #444444;
+    color: #FFFFFF;
+    border-color: #444444;
+}
+.btn-outline-corinthians {
+    color: #222222;
+    border-color: #222222;
+}
+.btn-outline-corinthians:hover {
+    background-color: #222222;
+    color: #FFFFFF;
+}
+.carousel-caption-corinthians {
+    background-color: rgba(34, 34, 34, 0.6);
+}
+
+.palmeiras-bg-light { background-color: #e0f2e0; }
+.text-palmeiras-primary { color: #00643C; }
+.text-palmeiras-secondary { color: #FFFFFF; }
+.border-palmeiras { border-color: #00643C !important; }
+
+.btn-palmeiras {
+    background-color: #00643C;
+    color: #FFFFFF;
+    border-color: #00643C;
+}
+.btn-palmeiras:hover {
+    background-color: #004d2e;
+    color: #FFFFFF;
+    border-color: #004d2e;
+}
+.btn-outline-palmeiras {
+    color: #00643C;
+    border-color: #00643C;
+}
+.btn-outline-palmeiras:hover {
+    background-color: #00643C;
+    color: #FFFFFF;
+}
+.carousel-caption-palmeiras {
+    background-color: rgba(0, 100, 60, 0.6);
+}
+
+.sao-paulo-bg-light { background-color: #ffe0e0; }
+.text-sao-paulo-primary { color: #FF0000; }
+.text-sao-paulo-secondary { color: #FFFFFF; }
+.border-sao-paulo { border-color: #FF0000 !important; }
+
+.btn-sao-paulo {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border-color: #FF0000;
+}
+.btn-sao-paulo:hover {
+    background-color: #cc0000;
+    color: #FFFFFF;
+    border-color: #cc0000;
+}
+.btn-outline-sao-paulo {
+    color: #FF0000;
+    border-color: #FF0000;
+}
+.btn-outline-sao-paulo:hover {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+.carousel-caption-sao-paulo {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+footer .info-autor {
+    display: flex;
+    align-items: center;
+}
+
+footer .autor-icon i {
+    font-size: 3.5rem;
+    color: #adb5bd;
+}
+
+footer .autor-detalhes p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+footer .redes-icones a i {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer .redes-icones a:hover i {
+    color: #0d6efd;
+}
+
+footer .text-info-emphasis {
+    color: #6ea8fe !important;
+}
+
+footer h2, footer h3 {
+    color: #ced4da;
+}
